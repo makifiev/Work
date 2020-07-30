@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		E430CC5224D2FA9400C21AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430CC5124D2FA9400C21AD4 /* AppDelegate.swift */; };
 		E430CC5424D2FA9400C21AD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430CC5324D2FA9400C21AD4 /* SceneDelegate.swift */; };
-		E430CC5624D2FA9400C21AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430CC5524D2FA9400C21AD4 /* ViewController.swift */; };
+		E430CC5624D2FA9400C21AD4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430CC5524D2FA9400C21AD4 /* TableViewController.swift */; };
 		E430CC5924D2FA9400C21AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E430CC5724D2FA9400C21AD4 /* Main.storyboard */; };
 		E430CC5C24D2FA9400C21AD4 /* UFCTEST.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E430CC5A24D2FA9400C21AD4 /* UFCTEST.xcdatamodeld */; };
 		E430CC5E24D2FA9700C21AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E430CC5D24D2FA9700C21AD4 /* Assets.xcassets */; };
 		E430CC6124D2FA9700C21AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E430CC5F24D2FA9700C21AD4 /* LaunchScreen.storyboard */; };
+		E430CC6924D2FBEA00C21AD4 /* PlacesTableViewMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430CC6824D2FBEA00C21AD4 /* PlacesTableViewMethods.swift */; };
+		E430CC6B24D2FFB600C21AD4 /* CompanyNamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430CC6A24D2FFB600C21AD4 /* CompanyNamesTableViewCell.swift */; };
+		E430CC6D24D2FFCF00C21AD4 /* InfoPlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430CC6C24D2FFCF00C21AD4 /* InfoPlacesTableViewCell.swift */; };
+		E430CC6F24D2FFE900C21AD4 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430CC6E24D2FFE900C21AD4 /* SettingsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E430CC4E24D2FA9400C21AD4 /* UFCTEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFCTEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E430CC5124D2FA9400C21AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E430CC5324D2FA9400C21AD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E430CC5524D2FA9400C21AD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E430CC5524D2FA9400C21AD4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E430CC5824D2FA9400C21AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E430CC5B24D2FA9400C21AD4 /* UFCTEST.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UFCTEST.xcdatamodel; sourceTree = "<group>"; };
 		E430CC5D24D2FA9700C21AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E430CC6024D2FA9700C21AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E430CC6224D2FA9700C21AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E430CC6824D2FBEA00C21AD4 /* PlacesTableViewMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewMethods.swift; sourceTree = "<group>"; };
+		E430CC6A24D2FFB600C21AD4 /* CompanyNamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyNamesTableViewCell.swift; sourceTree = "<group>"; };
+		E430CC6C24D2FFCF00C21AD4 /* InfoPlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPlacesTableViewCell.swift; sourceTree = "<group>"; };
+		E430CC6E24D2FFE900C21AD4 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,8 @@
 			children = (
 				E430CC5124D2FA9400C21AD4 /* AppDelegate.swift */,
 				E430CC5324D2FA9400C21AD4 /* SceneDelegate.swift */,
-				E430CC5524D2FA9400C21AD4 /* ViewController.swift */,
+				E430CC7124D300C900C21AD4 /* view controller */,
+				E430CC7024D3000600C21AD4 /* Cell model */,
 				E430CC5724D2FA9400C21AD4 /* Main.storyboard */,
 				E430CC5D24D2FA9700C21AD4 /* Assets.xcassets */,
 				E430CC5F24D2FA9700C21AD4 /* LaunchScreen.storyboard */,
@@ -68,6 +77,25 @@
 				E430CC5A24D2FA9400C21AD4 /* UFCTEST.xcdatamodeld */,
 			);
 			path = UFCTEST;
+			sourceTree = "<group>";
+		};
+		E430CC7024D3000600C21AD4 /* Cell model */ = {
+			isa = PBXGroup;
+			children = (
+				E430CC6A24D2FFB600C21AD4 /* CompanyNamesTableViewCell.swift */,
+				E430CC6C24D2FFCF00C21AD4 /* InfoPlacesTableViewCell.swift */,
+				E430CC6E24D2FFE900C21AD4 /* SettingsTableViewCell.swift */,
+			);
+			path = "Cell model";
+			sourceTree = "<group>";
+		};
+		E430CC7124D300C900C21AD4 /* view controller */ = {
+			isa = PBXGroup;
+			children = (
+				E430CC5524D2FA9400C21AD4 /* TableViewController.swift */,
+				E430CC6824D2FBEA00C21AD4 /* PlacesTableViewMethods.swift */,
+			);
+			path = "view controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E430CC5624D2FA9400C21AD4 /* ViewController.swift in Sources */,
+				E430CC6B24D2FFB600C21AD4 /* CompanyNamesTableViewCell.swift in Sources */,
+				E430CC5624D2FA9400C21AD4 /* TableViewController.swift in Sources */,
+				E430CC6F24D2FFE900C21AD4 /* SettingsTableViewCell.swift in Sources */,
 				E430CC5224D2FA9400C21AD4 /* AppDelegate.swift in Sources */,
 				E430CC5C24D2FA9400C21AD4 /* UFCTEST.xcdatamodeld in Sources */,
+				E430CC6924D2FBEA00C21AD4 /* PlacesTableViewMethods.swift in Sources */,
 				E430CC5424D2FA9400C21AD4 /* SceneDelegate.swift in Sources */,
+				E430CC6D24D2FFCF00C21AD4 /* InfoPlacesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
